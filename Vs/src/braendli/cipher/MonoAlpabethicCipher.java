@@ -11,7 +11,7 @@ public class MonoAlpabethicCipher implements Cipher{
 	private String secretAlphabet;
 	public MonoAlpabethicCipher(){}
 	
-	protected void setSecretAlphabet(String secretAlphabet) {
+	public void setSecretAlphabet(String secretAlphabet) {
 		this.secretAlphabet = secretAlphabet;
 	}
 	
